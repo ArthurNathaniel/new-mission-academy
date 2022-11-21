@@ -1,0 +1,73 @@
+.admission-heading {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.admission-heading h1 {
+    font-size: 42px;
+    line-height: 1.4em;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+}
+
+.admission-heading h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.admission-heading ol li {
+    list-style: square;
+    color: #000;
+}
+
+
+
+.admission-policy {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.admission-policy-heading h1 {
+    font-size: 42px;
+    line-height: 1.4em;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+}
+
+.fee {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.fees-body h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #192F59;
+}
+
+.admission-cover {
+    background-image: url(./images/Admission\ cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+@media only screen and (max-width: 600px) {
+    .admission-cover{
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(./images/Untitled-1.png);
+      display: none;
+    }
+  }

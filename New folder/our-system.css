@@ -1,0 +1,366 @@
+.curriculum {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.curriculum-hero {
+    background-image: url(./images/cover-image.jpg);
+    height: 500px;
+}
+
+.play-life {
+    display: flex;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.151);
+    margin: 0 auto;
+    padding-block: 50px;
+}
+
+.play-life-image {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.play-life-image img {
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.play-life-text {
+    width: 50%;
+}
+
+.play-life-text h1 {
+    padding-top: 50px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #000;
+    margin: 0 auto;
+    line-height: 1.2em;
+    padding-bottom: 30px;
+    width: 700px;
+    text-align: left;
+}
+
+small {
+    width: 600px;
+    text-align: left;
+    display: block;
+    /* margin: 0 auto; */
+    color: #192F59;
+}
+
+.amazing-teachers {
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    margin: 0 auto;
+    padding-block: 50px;
+}
+
+.amazing-teachers-text {
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+.amazing-teachers-image {
+    width: 500px;
+    margin-right: 50px;
+
+}
+
+.amazing-teachers-image img {
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.amazing-teachers-text h1 {
+    padding-top: 50px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #000;
+    margin: 0 auto;
+    line-height: 1.2em;
+    padding-bottom: 30px;
+    width: 700px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Booster Program */
+.booster {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.booster h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    color: #192F59;
+}
+
+.booster p {
+    color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* extra-curricular-activities */
+.extra-curricular-activities {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.extra-curricular-activities h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    color: #192F59;
+}
+
+.extra-curricular-activities p {
+    color: #333333;
+}
+
+
+/*Safety & Welfare */
+.safety {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.safety h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    color: #192F59;
+}
+
+.safety p {
+    color: #333333;
+}
+
+/*Smart-Tribe */
+.smart-tribe {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.smart-tribe h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    color: #192F59;
+}
+
+.smart-tribe p {
+    color: #333333;
+}
+
+
+/*Smart-Tribe*/
+.smart-image {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.smart img {
+    width: 390px;
+
+    border-radius: 10px;
+    /* padding-bottom: 10px; */
+
+}
+
+.smart {
+    display: block;
+    width: 200px;
+}
+
+.img-smart img {
+    width: 800px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .curriculum-hero {
+        background-image: url(./images/cover-image.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .curriculum {
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .curriculum-intro {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .play-life {
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .play-life-image {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .play-life-image img {
+        width: 100%;
+    }
+
+    .play-life-text {
+        display: inline-block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .play-life-text h1 {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .play-life-text p {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .play-life-text small {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .amazing-teachers {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .amazing-teachers {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .amazing-teachers-text {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .amazing-teachers-text h1 {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .amazing-teachers-text small {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .amazing-teachers-text p {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .amazing-teachers-image {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .amazing-teachers-image img {
+        width: 100%;
+    }
+
+   
+/* .smart-image{
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+}
+.smart-image img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+} */
+    
+.smart{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.smart img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+}
+
+    .smart img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .img-smart{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+.img-smart img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+}

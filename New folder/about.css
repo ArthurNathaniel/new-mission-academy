@@ -1,0 +1,423 @@
+   .our-philosophy {
+       display: flex;
+       justify-content: space-between;
+       width: 80%;
+       margin: 0 auto;
+       padding-block: 10px;
+   }
+
+   .heading h1 {
+       color: #192F59;
+       font-size: 45px;
+       font-weight: 300;
+       line-height: 1.4em;
+       text-align: left;
+       width: 500px;
+       padding-top: 30px;
+   }
+
+   .heading p {
+       color: #333333;
+       width: 500px;
+   }
+
+   .philosophy-image img {
+       width: 500px;
+   }
+
+   .welcome-message {
+       display: flex;
+       justify-content: space-around;
+       /* gap: 10; */
+       width: 80%;
+       margin: 0 auto;
+       padding-block: 50px;
+   }
+
+   .wm-content {
+       width: 500px;
+       position: relative;
+   }
+
+   .wm-image img {
+       width: 300px;
+       border-radius: 10px;
+
+   }
+
+   .wm-content h1 {
+       color: #192F59;
+       font-size: 45px;
+       font-weight: 300;
+       padding-bottom: 10px;
+       text-transform: capitalize;
+       width: 500px;
+       margin: 0 auto;
+   }
+
+   .wm-content p {
+       color: #333333;
+       width: 600px;
+   }
+
+
+
+
+
+
+   /* School Policies */
+   .school-policies {
+       width: 80%;
+       margin: 0 auto;
+       text-align: center;
+   }
+
+   .heading-sp h1 {
+       color: #192F59;
+       font-weight: 500;
+       font-size: 45px;
+   }
+
+   .health {
+       width: 80%;
+       margin: 0 auto;
+       padding-block: 50px;
+   }
+
+   .health ol li {
+       list-style: square;
+       line-height: 1.9em;
+       color: #333333;
+   }
+
+   .health h1 {
+       font-size: 35px;
+       font-weight: 500;
+       color: #192F59;
+   }
+
+   .time {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px;
+   }
+
+   .time ol li {
+       list-style: square;
+       line-height: 1.9em;
+       color: #333333;
+   }
+
+   .time h1 {
+       font-size: 35px;
+       font-weight: 500;
+       color: #192F59;
+   }
+
+
+   .dressing {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px;
+   }
+
+   .dressing ol li {
+       list-style: square;
+       line-height: 1.9em;
+       color: #333333;
+   }
+
+   .dressing h1 {
+       font-size: 35px;
+       font-weight: 500;
+       color: #192F59;
+   }
+
+   .feeding {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px;
+   }
+
+   .feeding ol li {
+       list-style: square;
+       line-height: 1.9em;
+       color: #333333;
+   }
+
+   .feeding h1 {
+       font-size: 35px;
+       font-weight: 500;
+       color: #192F59;
+   }
+
+   .home-work {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px;
+   }
+
+   .home-work ol li {
+       list-style: square;
+       line-height: 1.9em;
+       color: #333333;
+   }
+
+   .home-work h1 {
+       font-size: 35px;
+       font-weight: 500;
+       color: #192F59;
+   }
+
+   /* Facilities page */
+
+   .standard {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px;
+   }
+
+   .standard h1 {
+       text-transform: capitalize;
+       text-align: center;
+       font-size: 45px;
+       font-weight: 500;
+       color: #192F59;
+   }
+
+   .standard p {
+       color: #333333;
+   }
+
+   .expect h1 {
+       text-align: left;
+       font-size: 45px;
+       font-weight: 500;
+       color: #192F59;
+       margin: 0 auto;
+       width: 80%;
+   }
+
+   .cool {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px;
+   }
+
+   .cool h1 {
+       color: #192F59;
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   .dedicated {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px
+   }
+
+   .dedicated h1 {
+       color: #192F59;
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   .sport {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px
+   }
+
+   .sport h1 {
+       color: #192F59;
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   .innovative {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px
+   }
+
+   .innovative h1 {
+       color: #192F59;
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   .science {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px
+   }
+
+   .science h1 {
+       color: #192F59;
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   .library {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px
+   }
+
+   .library h1 {
+       color: #192F59;
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   .dinning {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px
+   }
+
+   .dinning h1 {
+       color: #192F59;
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   .aid {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px
+   }
+
+   .aid h1 {
+       color: #192F59;
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   .swimming {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px
+   }
+
+   .swimming h1 {
+       color: #192F59;
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   .transportation {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px
+   }
+
+   .transportation h1 {
+       color: #192F59;
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   .art {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px
+   }
+
+   .art h1 {
+       color: #192F59;
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   .technical {
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 50px
+   }
+
+   .technical h1 {
+       color: #192F59;
+       font-size: 25px;
+       font-weight: 300;
+   }
+
+   .about-cover {
+       background-image: url(./images/about.jpg);
+       width: 100%;
+       height: 500px;
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   }
+
+   @media (max-width:991px) {
+/* Our mission & our vision */
+.our-philosophy{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+
+}
+
+.heading h1{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.heading p{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+.philosophy-image{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.philosophy-image img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+       .welcome-message {
+           display: inline-block;
+           width: 100%;
+           margin: 0 auto;
+           position: relative;
+           z-index: -1;
+       }
+
+       .wm-content h1 {
+           display: block;
+           width: 100%;
+           margin: 0 auto;
+       }
+
+       .wm-content p {
+           display: block;
+           width: 100%;
+           margin: 0 auto;
+       }
+
+       .wm-image img {
+           display: block;
+           margin: 0 auto;
+           padding-top: 150px;
+       }
+
+       .wm-content {
+           display: block;
+           width: 80%;
+           margin: 0 auto;
+       }
+
+       .wm-image {
+           display: block;
+           margin: 0 auto;
+       }
+
+   }
